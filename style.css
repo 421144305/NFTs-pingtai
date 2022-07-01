@@ -1,0 +1,255 @@
+@import url('@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Syne Mono', monospace;
+ 
+    
+}
+
+#container{
+  margin: 12px auto;
+  width: 100%;
+}
+
+header{
+  padding: 5% 40%;
+  text-align: center;
+  background: url("https://cloudfront-us-east-1.images.arcpublishing.com/coindesk/ROBDVO4PFNFULOLBIK3DGUO5KQ.jpg")
+   
+}
+
+header p{
+  color: white;
+  font-size: 30px;
+  padding: 5%;
+  margin: 5% 0px;
+  background: rgba(0,0,0,0.8) 
+}
+
+@keyframes screen{
+  to{
+      transform: translateY(-100%);
+  }
+}
+
+
+
+.clouds img {
+  width: 50px;
+  animation: bubble 5s linear infinite;
+}
+
+.clouds {
+  width: 100%;
+  padding: 0 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+  bottom: -10%;
+  /* background-color:blueviolet; */
+}
+
+@keyframes bubble {
+  0% {
+    transform: translateY(0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  70% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-80vh);
+    opacity: 0;
+  }
+}
+
+.clouds img:nth-child(1) {
+    animation-delay: 2s;
+    width: 100px;
+}
+.clouds img:nth-child(2) {
+    animation-delay: 1s;
+    width: 70px;
+}
+.clouds img:nth-child(3) {
+    animation-delay: 3s;
+    width: 65px;
+}
+.clouds img:nth-child(4) {
+    animation-delay: 4.5s;
+    width: 80px;
+}
+.clouds img:nth-child(5) {
+    animation-delay: 2s;
+    width: 85px;
+}
+.clouds img:nth-child(6) {
+    animation-delay: 5s;
+    width: 70px;
+}
+.clouds img:nth-child(7) {
+    animation-delay: 6s;
+    width: 100px;
+}
+
+
+.topnav {
+  padding: 20px;
+  text-align: center;
+  background : url("https://i.pinimg.com/originals/f2/08/bd/f208bd3a0321c7da3bec7228afe02bf9.gif")
+}
+
+.bookmarks {
+  display: inline-block;
+  border-radius: 10px;
+  color: white;
+  padding: 1% 2%;
+  text-align: center;
+  text-decoration: none;
+  margin: 0px 3%;
+}
+
+.bookmarks:hover{
+  background-image: linear-gradient(to right, rgba(255,0,0,0.7), rgba(98, 52, 140,0.7));
+}
+.center {
+    text-align: center !important;
+  background:#7cfafc
+ }
+.centered{
+  position: relative;
+  top: 50%;
+}
+
+
+
+.column {
+  float: left;
+  padding: 10px;
+}
+
+.column.side {
+  width: 20%;
+  border : 2px solid black;
+  margin: 0px 25px;
+  height: 300px;
+  background: url("https://media.istockphoto.com/vectors/gaming-gadgets-seamless-pattern-in-deep-blue-outline-esports-pc-and-vector-id1166885668?b=1&k=6&m=1166885668&s=612x612&w=0&h=e3Umh8igr2Epd1dZYi0dkuGx4i5CQpl9Ep3ktbwKHf4=");
+    color: white;
+}
+
+
+.column.middle {
+  width: 50%;
+  height: 300px;
+  padding: 5px 25px;
+  border: 2px solid black;
+  background : url(https://img.freepik.com/free-vector/abstract-violet-pixel-rain-background_23-2148362568.jpg?size=626&ext=jpg);
+  color: white;
+}
+
+#columns{
+  background:#f7ff80
+}
+
+
+
+#columns:after {
+  content: "";
+  display: table;
+  clear: both;
+
+
+}
+
+.column-row {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+  
+}
+
+.row {margin: 0 -5px;}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+  padding: 16px;
+  text-align: center;
+  background-color:#f77cf5;
+}
+
+.card img{
+  width: 50%;
+  border : 2px solid black;
+  border-radius: 50%;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 10px solid rgba(255, 0, 0, 0.45);
+    float: left;
+    transform:rotate(0deg);
+    transition: .3s;
+    transition: width 2s, height 2s, transform:rotate(0deg);
+    width: 24%;
+    height: 90%;
+    filter: hue-rotate(0deg);
+    #filter: grayscale(0%);
+  
+  }
+  
+  div.gallery:hover {
+    border:10px solid rgba(255, 0, 0, 0.45);
+    color: #d14e2d;
+    background: #fff;
+    width: 300px;
+    height: 340px;
+    box-shadow:3px 2px 2px rgba(222, 236, 255, 0.63);
+    transform: rotate(360deg);
+    filter: grayscale(0%);
+    filter: hue-rotate(160deg)
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: 230px;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+    
+  }
+  #galleryContainer{
+      height: 380px;
+      width: 100%;   
+  }
+div.cont{
+  display: inline-block;
+  border-radius: 30px;
+  width:100%
+}
+
+div.row{
+  background:#9580ff;
+    height:550px
+}
+
+@media only screen and (max-width: 500px){
+  .clouds img:nth-child(7), img:nth-child(6), img:nth-child(5), img:nth-child(4){
+   display: none;
+  }
+
+}
